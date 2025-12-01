@@ -1,6 +1,3 @@
-Updated `README.md` to remove instructions to run the application, instruct running the test suite via `./gradlew test`, and keep example `curl` requests for manual checks.
-
-```markdown
 # CashCard (TDD Example)
 
 A simple CashCard REST API implemented with Spring Boot that demonstrates Test-Driven Development (TDD).  
@@ -68,4 +65,3 @@ The test class `CashcardApplicationTests` validates:
 ## Notes
 - This repository is an educational example focusing on writing clear, descriptive tests before or alongside implementation.
 - Use `./gradlew test` as the primary way to run and verify behavior. Adapt authentication, data seeding, and DB settings in `application.yml` / `application-test.yml` if needed.
-```
